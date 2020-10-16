@@ -2,19 +2,23 @@
 
 ## Rust环境配置
 
- ### Rust nightly build
- > use some feature on nightly or test
- > 参考
- > - https://www.rust-lang.org/tools/install
- ```
- rustup run nightly cargo build
- ```
- 
  ### Rust 镜像源
 ```bash
 export RUSTUP_DIST_SERVER=http://mirrors.ustc.edu.cn/rust-static
 export RUSTUP_UPDATE_ROOT:http://mirrors.ustc.edu.cn/rust-static/rustup
 ```
+
+ ### Rust nightly build
+ > use some feature on nightly or test
+ > 参考
+ > - https://www.rust-lang.org/tools/install
+ ```
+ ## 安装最新稳定版
+ rustup update stable
+ ## 安装最新开发版
+ rustup run nightly cargo build
+ ```
+ 
 
 #### 为项目配置镜像源
 ```toml
