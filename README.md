@@ -33,4 +33,6 @@ registry = “https://mirrors.ustc.edu.cn/crates.io-index/”
 
 ## 参考
 
+- https://cargo.budshome.com/
+- https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
 - https://www.rust-lang.org/learn/get-started
