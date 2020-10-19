@@ -32,8 +32,11 @@ registry = “https://mirrors.ustc.edu.cn/crates.io-index/”
 ```
 
 ## 参考
-
+- https://rustwiki.org/zh-CN//rust-by-example/
+- https://kaisery.github.io/trpl-zh-cn/
 - https://cargo.budshome.com/
 - https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
 - https://www.rust-lang.org/learn/get-started
 - https://zsiciarz.github.io/24daysofrust/book/vol2/day23.html
+- https://rustwasm.github.io/docs/wasm-bindgen/examples/without-a-bundler.html
+- https://dev.to/ender_minyard/full-stack-developer-s-roadmap-2k12
