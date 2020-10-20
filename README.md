@@ -21,13 +21,14 @@ export RUSTUP_UPDATE_ROOT:http://mirrors.ustc.edu.cn/rust-static/rustup
  
 
 #### 为项目配置镜像源
+> 在 $HOME/.cargo/config 中添加如下内容：
+
 ```toml
-[registry]
-index = “https://mirrors.ustc.edu.cn/crates.io-index/”
 [source.crates-io]
-replace-with = ‘ustc’
+replace-with = 'ustc'
+
 [source.ustc]
-registry = “https://mirrors.ustc.edu.cn/crates.io-index/”
+registry = "git://mirrors.ustc.edu.cn/crates.io-index"
 
 ```
 
