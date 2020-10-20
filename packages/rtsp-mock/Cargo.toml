@@ -1,8 +1,13 @@
 [package]
-name = "rtsp-camera-mock"
-version = "0.1.0"
-authors = ["Valmir Pretto <valmir.pretto@deepx.it>"]
+name = "rtsp-mock"
+version = "0.2.0"
+authors = ["Talbot3 <4wunian@gmail.com>"]
 edition = "2018"
+description="mock rtsp stream"
+documentation="https://github.com/Talbot3/PracticeRust/tree/master/packages/rtsp-mock"
+homepage="https://github.com/Talbot3/PracticeRust/tree/master/packages/rtsp-mock"
+repository="https://github.com/Talbot3/PracticeRust"
+license="MIT"
 
 [dependencies]
 glib = { version = "0.9.0" }
