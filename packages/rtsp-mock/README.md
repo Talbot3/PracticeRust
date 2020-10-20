@@ -20,6 +20,10 @@ cargo build --target="x86_64-unknown-linux-gnu"
 
 ```
 
+## project page
+
+https://crates.io/crates/rtsp-mock
+
 ## Thanks
 
 - valmirjunior0088/rtsp-camera-mock.git
