@@ -1,7 +1,5 @@
 use {
-    std::fs,
     std::env,
-    std::process,
     glib::{MainContext, MainLoop},
     gstreamer_rtsp_server::prelude::*,
     gstreamer_rtsp_server::{RTSPMediaFactory, RTSPServer},
@@ -21,7 +19,7 @@ fn main() {
 
         gstreamer::init().unwrap();
         let media_factory = RTSPMediaFactory::new();
-        media_factory.set_launch("videotestsrc ! x264enc key-int-max=40 ! rtph264pay name=pay0 pt=96");
+        media_factory.set_launch("videotestsrc ! clockoverlay halignment=left valignment=top text=\"by 司马错 with deeplueai.com  \" shaded-background=true font-desc=\"Sans, 36\"  ! x264enc key-int-max=40 ! rtph264pay name=pay0 pt=96");
         media_factory.set_shared(true);
 
         let main_context = MainContext::default();
