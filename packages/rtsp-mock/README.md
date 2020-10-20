@@ -38,6 +38,11 @@ cargo build --target="x86_64-apple-darwin"
 ## 在开发环境交插编译
 cargo build --target="x86_64-unknown-linux-gnu"
 
+## 发版前检测
+cargo publish --dry-run
+
+## 发版
+cargo publish
 ```
 
 ## project page
