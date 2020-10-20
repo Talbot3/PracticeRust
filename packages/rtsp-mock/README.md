@@ -47,3 +47,7 @@ https://crates.io/crates/rtsp-mock
 ## Thanks
 
 - valmirjunior0088/rtsp-camera-mock.git
+
+## Refers
+
+- https://gstreamer.freedesktop.org/documentation/tutorials/basic/concepts.html?gi-language=c
