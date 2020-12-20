@@ -1,6 +1,6 @@
 [package]
 name = "rtsp-mock"
-version = "0.2.1"
+version = "0.2.2"
 authors = ["Talbot3 <4wunian@gmail.com>"]
 edition = "2018"
 description="mock rtsp stream"
@@ -11,5 +11,5 @@ license="MIT"
 
 [dependencies]
 glib = { version = "0.10.3" }
-gstreamer = { version = "0.16.3" }
-gstreamer-rtsp-server = { version = "0.16.3" }
+gstreamer = { version = "0.16.5" }
+gstreamer-rtsp-server = { version = "0.16.5" }
