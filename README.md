@@ -32,6 +32,12 @@ registry = "git://mirrors.ustc.edu.cn/crates.io-index"
 
 ```
 
+
+## 特性 Trait
+> 相比C++的的Class，使用新的特性替换类的概念要好很多，更符合C流派的风格。
+
+- 支持操作符重载，用于自定义类型时操作很方便，更直观。
+
 ## 参考
 - https://rustwiki.org/zh-CN//rust-by-example/
 - https://kaisery.github.io/trpl-zh-cn/
